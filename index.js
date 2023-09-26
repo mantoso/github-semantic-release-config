@@ -52,7 +52,7 @@ module.exports = {
             }],
         ["@semantic-release/git", {
             "assets": ["VERSION", "CHANGELOG.md"],
-            "message": "chore(release): v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            "message":"chore(release): Created v${nextRelease.version} release [skip ci]\n\n${nextRelease.notes}"
         }
         ],
         ["@semantic-release/github",
